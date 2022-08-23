@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height,width,borders and backgrounds</title>
+    <style>
+        #firstpara{
+            background-color: red;
+            height: 100px;
+            width: 455px;
+            border: 4px solid blue;
+            /* border-width: 5px;
+            border-color: navy;
+            border-style: solid;*/
+            border-radius: 10px; 
+        }
+        #secondpara{
+            background-color: rgb(124, 176, 171);
+            height: 100px;
+            width: 455px;
+            border-top: 4px solid pink;
+            border-right: 4px solid violet;
+            border-bottom: 4px solid green;
+            border-left: 4px solid yellow;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 20px;
+            border-top-right-radius: 25px; ;
+        }
+        #thirdpara{
+            height: 100px;
+            width: 455px;
+            /* background-image: url('tms2.png'); cot is not necessary */
+            background-image: url(tms2.png);
+
+            border: 4px solid red;
+            background-repeat: no-repeat;  /*repeat-x and repeat-y used for repeat om x and y axis */
+            background-position:center center ;
+             background-position:top right;
+            background-position:top left ;
+           background-position:top center ;
+            background-position:bottom center ;
+            background-position:bottom right ;
+            background-position:bottom left ; 
+            background-position:center right ; 
+        }
+    </style>
+</head>
+<body>
+    <h3>This is heading</h3>
+    <p id="firstpara">This is paragraph</p>
+    <p id="secondpara">This is paragraph</p>
+    <p id="thirdpara"></p>
+
+</body>
+</html>
